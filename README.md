@@ -1,94 +1,198 @@
-🍕 Pizza Sales Analysis using SQL
-📌 Project Overview
+# 🍕 Pizza Sales Analysis using SQL
+
+## Table of Contents
+
+- Project Overview
+- Data Structure & Initial Checks
+- Executive Summary
+- Key Insights
+- Challenges Faced
+- Skills Demonstrated
+
+---
+
+# 1. Project Overview
 
 This project focuses on analyzing pizza sales data using SQL to uncover valuable business insights related to sales performance, customer behavior, and product trends.
 
-The analysis was performed using SQL queries involving joins, aggregations, subqueries, grouping, sorting, and filtering techniques.
+The analysis was performed using SQL concepts such as joins, aggregate functions, subqueries, Common Table Expressions (CTEs), grouping, sorting, and filtering techniques.
 
-📊 Objectives
-Analyze overall sales and revenue performance
-Identify top-selling pizzas and categories
-Understand customer ordering patterns
-Calculate average daily orders
-Find highest-priced pizzas
-Discover peak sales periods
-🛠 Tools & Technologies Used
-SQL
-MySQL / PostgreSQL / SQL Server
-Joins
-Aggregate Functions
-Group By
-Order By
-Subqueries
-Common Table Expressions (CTEs)
-📂 Dataset Information
+### Key Areas Covered
 
-The dataset contains:
+- Revenue Analysis
+- Product Performance Analysis
+- Customer Ordering Behavior
+- Category-wise Sales Analysis
+- Time-based Sales Trends
+- Order Pattern Analysis
 
-Orders
-Order Details
-Pizza Types
-Pizza Sizes
-Pizza Categories
-Prices
-Quantity Sold
-🔍 Key SQL Analysis Performed
-✔ Total Revenue Generated
+---
 
-Calculated total revenue from pizza sales.
+# 2. Data Structure & Initial Checks
 
-✔ Top-Selling Pizzas
+The dataset consists of multiple relational tables:
 
-Identified pizzas with highest sales quantity.
+- Orders
+- Order Details
+- Pizzas
+- Pizza Types
 
-✔ Highest-Priced Pizza
+### Data Validation Checks
 
-Found the most expensive pizza available.
+Before analysis, the following checks were performed:
 
-✔ Most Common Pizza Size
+- Missing value verification
+- Duplicate record checks
+- Data consistency validation
+- Relationship verification between tables
+- Revenue calculation validation
 
-Analyzed which pizza size customers preferred the most.
+---
 
-✔ Daily Average Orders
+# 3. Executive Summary
 
-Calculated average number of orders placed per day.
+### Business Summary
 
-✔ Category-wise Sales
+The pizza sales dataset was analyzed to understand revenue performance, customer purchasing patterns, and product demand.
 
-Compared revenue contribution by pizza category.
+By leveraging SQL queries and relational database concepts, valuable insights were generated regarding top-selling pizzas, customer preferences, peak sales periods, and category performance.
 
-✔ Peak Order Hours
+The analysis helps identify revenue-driving products and supports data-driven business decisions.
 
-Analyzed customer ordering behavior by time.
+---
 
-📈 Key Insights
-Certain pizza categories contributed significantly to total revenue
-A few pizzas generated most of the sales
-Large-sized pizzas were among the most ordered
-Peak order timings indicated customer demand patterns
-Revenue trends helped identify high-performing products
-⚠ Challenges Faced
-Handling multiple table joins
-Aggregating large datasets
-Calculating accurate revenue metrics
-Writing optimized SQL queries
-Managing grouped and nested queries
-📚 Skills Improved
+# 4. Key Insights
 
-Through this project, improved skills in:
+## Revenue Analysis
 
-SQL Query Writing
-Data Analysis
-Business Insights Generation
-Data Aggregation
-Joins & Subqueries
-Problem Solving
-Analytical Thinking
-🚀 Final Outcome
+### Total Revenue Generated
 
-Successfully built a SQL-based sales analysis project capable of extracting meaningful insights from pizza sales data and supporting business decision-making.
+- Calculated total revenue generated from pizza sales.
+- Identified major contributors to overall business revenue.
 
-📌 Author
+---
 
-Divya Hirekar
-Data Analytics Enthusiast | SQL | Power BI | Python
+## Product Performance Analysis
+
+### Top-Selling Pizzas
+
+- Identified pizzas with the highest sales quantity.
+- Determined products driving maximum customer demand.
+
+### Highest-Priced Pizza
+
+- Analyzed pricing structure and identified the most expensive pizza available.
+
+---
+
+## Customer Ordering Behavior
+
+### Most Common Pizza Size
+
+- Determined the pizza size most frequently ordered by customers.
+- Revealed customer preference patterns across available sizes.
+
+### Average Daily Orders
+
+- Calculated average number of orders placed per day.
+- Evaluated overall customer engagement and sales consistency.
+
+---
+
+## Category-wise Analysis
+
+### Revenue Contribution by Category
+
+- Compared revenue generated across pizza categories.
+- Identified categories contributing the largest share of total sales.
+
+---
+
+## Time-based Analysis
+
+### Peak Order Hours
+
+- Analyzed ordering trends by hour.
+- Identified high-demand periods and customer purchasing behavior.
+
+### Sales Trends
+
+- Evaluated order patterns to understand business performance across different time periods.
+
+---
+
+# 5. Challenges Faced
+
+### Data Integration
+
+- Worked with multiple related tables using SQL joins.
+- Ensured accurate mapping between orders and products.
+
+### Revenue Calculations
+
+- Calculated sales revenue using quantity and pricing data.
+- Validated results for accuracy.
+
+### Query Optimization
+
+- Developed efficient SQL queries for large datasets.
+- Used aggregation techniques to improve analysis performance.
+
+### Complex Analysis
+
+- Implemented nested queries, subqueries, and CTEs for advanced business insights.
+
+---
+
+# 6. Skills Demonstrated
+
+### SQL Skills
+
+- Joins
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- HAVING
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+
+### Analytical Skills
+
+- Business Analysis
+- Revenue Analysis
+- Customer Behavior Analysis
+- Product Performance Evaluation
+- Data Interpretation
+
+---
+
+# Tools Used
+
+- SQL
+- MySQL
+- PostgreSQL
+- SQL Server
+
+---
+
+# Project Outcome
+
+Successfully performed end-to-end SQL analysis on pizza sales data to uncover meaningful business insights, identify top-performing products, understand customer purchasing patterns, and support strategic business decision-making.
+
+---
+
+## Files Included
+
+- SQL Queries (.sql)
+- Dataset Files (.csv)
+- Project Documentation
+- Query Outputs
+
+---
+
+## Author
+
+**Divya Hirekar**
+
+Data Analyst | SQL | Power BI | Python

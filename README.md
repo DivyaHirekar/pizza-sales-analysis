@@ -171,7 +171,6 @@ The analysis helps identify revenue-driving products and supports data-driven bu
 
 - SQL
 - MySQL
-- PostgreSQL
 - SQL Server
 
 ---

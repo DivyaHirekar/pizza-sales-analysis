@@ -139,3 +139,9 @@ The dataset consists of four relational tables:
 ## ✅ Conclusion
 
 This project demonstrates how SQL can be used to transform raw transactional data into meaningful business insights. The analysis highlights revenue trends, customer purchasing behavior, and product performance, enabling data-driven business decisions.
+
+## 👩‍💻 Author
+
+**Divya Hirekar**
+
+Data Analyst | SQL | Power BI | Excel | Python
